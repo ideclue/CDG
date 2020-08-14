@@ -1,0 +1,51 @@
+.root {
+	-fx-background-image: url("background.jpg");
+}
+
+.button {
+	-fx-color: #eef9fa;
+	-fx-border-color: #8e9596;
+	-fx-border-width: 2;
+	-fx-border-radius: 10;
+	-fx-background-radius: 10;
+	-fx-text-fill: #394e97;
+	-fx-cursor: hand;
+}
+
+.button:armed {
+	-fx-color: #8e9596;
+}
+
+.text-field {
+	-fx-background-color: #eef9fa;
+	-fx-border-color: #8e9596;
+	-fx-border-width: 3;
+	-fx-border-radius: 5;
+	-fx-background-radius: 5;
+	-fx-text-fill: #394e97;
+}
+
+.slider {
+	-fx-show-tick-marks: false;
+}
+
+.radio-button .radio {
+	-fx-background-color: linear-gradient(from 0%0% to 100%100%, #eef9fa, #a6aeaf);
+	-fx-border-color: #8e9596;
+	-fx-border-radius: 50%;
+	-fx-border-width: 2;
+}
+
+#text {
+	-fx-font-family: Tahoma;
+	-fx-text-fill: #1c274b;
+	-fx-text-alignment: center;
+	-fx-fill: #1c274b;
+}
+
+#title {
+	-fx-font-family: Georgia;
+	-fx-underline: true;
+	-fx-font-weight: bold;
+	-fx-text-fill: #263464;
+}
